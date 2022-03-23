@@ -2,4 +2,4 @@
 
 | Name   | ArtifactId | LatestVersion |
 | ------ | ---------- | ------------- |
-| Weaver | weaver     | 0.1.3         |
+| Weaver | weaver     | 0.1.4         |
