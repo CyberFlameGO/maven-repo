@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mysticfall",
+    "module": "kotlin-react-test",
+    "version": "18.2.0-pre.522+build.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin-wrappers",
+          "module": "kotlin-react",
+          "version": {
+            "requires": "18.2.0-pre.522"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin-wrappers",
+          "module": "kotlin-react-dom",
+          "version": {
+            "requires": "18.2.0-pre.522"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-react-test-18.2.0-pre.522+build.19.klib",
+          "url": "kotlin-react-test-18.2.0-pre.522+build.19.klib",
+          "size": 12380,
+          "sha512": "2ae4b8955a56d00d393bc7b57a9b64c1cbc4c3cf4d860b70d06fce75d04caa89642269c36d0243de427cdc7828a5c1c02c998222924d03a4cf2c2714658d05d6",
+          "sha256": "fdb91342366d4d3f5e6c16ffdb9fc987346d698d512589ad96b555c932519e42",
+          "sha1": "647381cc06fd613b17ce138ebd24cf239c4a1617",
+          "md5": "6acc2fe4be2b52612e3f533a1ffd4975"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin-wrappers",
+          "module": "kotlin-react",
+          "version": {
+            "requires": "18.2.0-pre.522"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin-wrappers",
+          "module": "kotlin-react-dom",
+          "version": {
+            "requires": "18.2.0-pre.522"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-react-test-18.2.0-pre.522+build.19.klib",
+          "url": "kotlin-react-test-18.2.0-pre.522+build.19.klib",
+          "size": 12380,
+          "sha512": "2ae4b8955a56d00d393bc7b57a9b64c1cbc4c3cf4d860b70d06fce75d04caa89642269c36d0243de427cdc7828a5c1c02c998222924d03a4cf2c2714658d05d6",
+          "sha256": "fdb91342366d4d3f5e6c16ffdb9fc987346d698d512589ad96b555c932519e42",
+          "sha1": "647381cc06fd613b17ce138ebd24cf239c4a1617",
+          "md5": "6acc2fe4be2b52612e3f533a1ffd4975"
+        }
+      ]
+    },
+    {
+      "name": "commonFakeApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      }
+    }
+  ]
+}
