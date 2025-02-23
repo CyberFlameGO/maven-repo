@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.cyberflame",
+    "module": "kotlin-react-test",
+    "version": "19.0.0-2025.2.8+build.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20-RC"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-react-test-19.0.0-2025.2.8+build.11.jar",
+          "url": "kotlin-react-test-19.0.0-2025.2.8+build.11.jar",
+          "size": 647,
+          "sha512": "c1202faf5fb2108ab1f93db76a2c11711a6cd898d0da87a3dfb5ffff5b21586323742791a4c120c11c332118aac00a48a58eeae1cff73a5f9aaf9e8e821b414a",
+          "sha256": "a883859a734bdfcfa5883eb12c580a53dd1d0b161e01a7157778fd2d5d5c9271",
+          "sha1": "4a2b0530c6748a26507ba65dad6b356852a4267b",
+          "md5": "0bbfd760d022a5d5e4e079e60d9df216"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kotlin-react-test-js/19.0.0-2025.2.8+build.11/kotlin-react-test-js-19.0.0-2025.2.8+build.11.module",
+        "group": "net.cyberflame",
+        "module": "kotlin-react-test-js",
+        "version": "19.0.0-2025.2.8+build.11"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kotlin-react-test-js/19.0.0-2025.2.8+build.11/kotlin-react-test-js-19.0.0-2025.2.8+build.11.module",
+        "group": "net.cyberflame",
+        "module": "kotlin-react-test-js",
+        "version": "19.0.0-2025.2.8+build.11"
+      }
+    }
+  ]
+}
