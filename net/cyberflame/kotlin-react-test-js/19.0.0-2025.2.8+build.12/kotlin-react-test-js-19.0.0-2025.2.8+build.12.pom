@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.cyberflame</groupId>
+  <artifactId>kotlin-react-test-js</artifactId>
+  <version>19.0.0-2025.2.8+build.12</version>
+  <packaging>klib</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-dom-api-compat</artifactId>
+      <version>2.1.20-RC</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-js</artifactId>
+      <version>2.1.20-RC</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin-wrappers</groupId>
+      <artifactId>kotlin-react-js</artifactId>
+      <version>2025.2.8-19.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin-wrappers</groupId>
+      <artifactId>kotlin-react-dom-js</artifactId>
+      <version>2025.2.8-19.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
